@@ -6,7 +6,7 @@ public class Student {
     private int id;
     private String name;
     private Date birthday;
-    private int idade;
+    private int age;
 
     public Student() {
     }
@@ -28,8 +28,8 @@ public class Student {
         return birthday;
     }
 
-    public int getIdade() {
-        return idade;
+    public int getAge() {
+        return age;
     }
 
     public void setName(String name) {
@@ -40,7 +40,7 @@ public class Student {
         this.birthday = birthday;
     }
 
-    public void setIdade(int idade) {
-        this.idade = idade;
+    public void setAge(int idade) {
+        this.age = age;
     }
 }
