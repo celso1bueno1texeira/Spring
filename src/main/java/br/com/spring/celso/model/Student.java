@@ -11,6 +11,10 @@ public class Student {
     public Student() {
     }
 
+    public Student(String name) {
+        this.name = name;
+    }
+
     public Student(String name, Date birthday) {
         this.name = name;
         this.birthday = birthday;
